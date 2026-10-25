@@ -1,22 +1,9 @@
-SKADI TOKEN WEBSITE — UPDATE PACKAGE
+SKADI Token website fix
 
-This package contains an updated, responsive single-page website for the SKADI community meme token.
-Files:
-- index.html: website page and styles
-- skadi-hero.png: hero artwork
+Upload these two files to the root of your existing GitHub repository:
+- index.html (replace the existing file)
+- skadi-goddess-clean.jpg (new clean artwork cropped to remove the UI fragments embedded in the generated image)
 
-Links currently configured:
-- X: https://x.com/SkadiOnSol
-- Pump.fun token listing: https://pump.fun/coin/3wcJPJEcfcb38U2ZJNv91j7Cc3qRc2tJwBkYNK1mpump
-- Token mint address: 3wcJPJEcfcb38U2ZJNv91j7Cc3qRc2tJwBkYNK1mpump
+Then commit changes. GitHub Pages will publish the updated website automatically.
 
-To update the existing GitHub Pages site:
-1. Open the skadi-token repository on GitHub.
-2. Choose Add file > Upload files.
-3. Upload the new index.html and skadi-hero.png from this folder. If GitHub says the files already exist, uploading them with the same names will replace them.
-4. Commit changes directly to the main branch.
-5. Wait a few minutes, then refresh the published site.
-
-The website does not promise profits, display invented metrics, or provide financial advice. Check the token address and links before publishing or sharing them.
-
-Updated artwork: skadi-goddess-wolf.png features the Norse goddess Skadi and her wolf. The HTML uses this artwork as the hero background; the text and buttons remain live HTML elements.
+The page links to the provided SKADI token mint and X profile @SkadiOnSol. Please verify the token address and Pump.fun page before sharing publicly.
