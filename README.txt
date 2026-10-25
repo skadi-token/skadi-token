@@ -1,14 +1,20 @@
-SKADI Token landing page (static website)
+SKADI TOKEN WEBSITE — UPDATE PACKAGE
 
+This package contains an updated, responsive single-page website for the SKADI community meme token.
 Files:
-- index.html: website
-- skadi-hero.*: generated hero artwork (if included)
+- index.html: website page and styles
+- skadi-hero.png: hero artwork
 
-Before publishing:
-1. Replace the X profile URL in index.html if your final official username differs.
-2. Add the exact Pump.fun token URL and token address once supplied.
-3. Add official Telegram link only if/when the group exists.
-4. Ensure all claims on the page are accurate.
-5. Publish via a static hosting service such as GitHub Pages, following that service's current instructions.
+Links currently configured:
+- X: https://x.com/SkadiOnSol
+- Pump.fun token listing: https://pump.fun/coin/3wcJPJEcfcb38U2ZJNv91j7Cc3qRc2tJwBkYNK1mpump
+- Token mint address: 3wcJPJEcfcb38U2ZJNv91j7Cc3qRc2tJwBkYNK1mpump
 
-This is a static website; it does not process payments, connect to wallets, or offer investment advice.
+To update the existing GitHub Pages site:
+1. Open the skadi-token repository on GitHub.
+2. Choose Add file > Upload files.
+3. Upload the new index.html and skadi-hero.png from this folder. If GitHub says the files already exist, uploading them with the same names will replace them.
+4. Commit changes directly to the main branch.
+5. Wait a few minutes, then refresh the published site.
+
+The website does not promise profits, display invented metrics, or provide financial advice. Check the token address and links before publishing or sharing them.
