@@ -1,21 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050b12">
-  <meta name="description" content="Nine Realms Saga — a Norse-inspired fantasy universe of comics, legendary characters, mythical creatures, worlds, art and NFT collectibles.">
-  <title>NINE REALMS SAGA</title>
-  <style>
-    * { box-sizing: border-box; }
-    html, body { margin: 0; min-height: 100%; background: #050b12; }
-    body { display: flex; justify-content: center; align-items: flex-start; }
-    .homepage { display: block; width: 100%; max-width: 1855px; height: auto; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NINE REALMS SAGA</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #050b12;
+}
+
+.homepage {
+  position: relative;
+  width: 100%;
+  max-width: 1855px;
+  margin: 0 auto;
+}
+
+.homepage img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hotspot {
+  position: absolute;
+  top: 0;
+  height: 9%;
+  display: block;
+  z-index: 10;
+  background: transparent;
+}
+
+/* Clickable areas over the existing navigation */
+.home-link {
+  left: 32%;
+  width: 5.5%;
+}
+
+.comics-link {
+  left: 38%;
+  width: 6%;
+}
+
+.characters-link {
+  left: 44%;
+  width: 9%;
+}
+
+.worlds-link {
+  left: 53.5%;
+  width: 6.5%;
+}
+
+.art-link {
+  left: 60%;
+  width: 9%;
+}
+
+.community-link {
+  left: 69%;
+  width: 10%;
+}
+
+.hotspot:focus-visible {
+  outline: 2px solid #f4d58a;
+  outline-offset: -3px;
+}
+</style>
 </head>
+
 <body>
-  <main>
-    <img class="homepage" src="homepage-design.png" alt="NINE REALMS SAGA homepage concept featuring the Norse realms, Skadi, a wolf, comics, characters, worlds, art and lore, and NFT collectibles">
-  </main>
+
+<main class="homepage">
+  <img
+    src="homepage-design.png"
+    alt="NINE REALMS SAGA — a Nordic fantasy universe"
+  >
+
+  <a class="hotspot home-link"
+     href="index.html"
+     aria-label="Home"></a>
+
+  <a class="hotspot comics-link"
+     href="comics.html"
+     aria-label="Comics"></a>
+
+  <a class="hotspot characters-link"
+     href="characters.html"
+     aria-label="Characters"></a>
+
+  <a class="hotspot worlds-link"
+     href="worlds.html"
+     aria-label="Worlds"></a>
+
+  <a class="hotspot art-link"
+     href="art-lore.html"
+     aria-label="Art and Lore"></a>
+
+  <a class="hotspot community-link"
+     href="community.html"
+     aria-label="Community"></a>
+</main>
+
 </body>
 </html>
