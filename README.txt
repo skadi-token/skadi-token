@@ -18,3 +18,5 @@ To update the existing GitHub Pages site:
 5. Wait a few minutes, then refresh the published site.
 
 The website does not promise profits, display invented metrics, or provide financial advice. Check the token address and links before publishing or sharing them.
+
+Updated artwork: skadi-goddess-wolf.png features the Norse goddess Skadi and her wolf. The HTML uses this artwork as the hero background; the text and buttons remain live HTML elements.
